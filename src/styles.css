@@ -136,19 +136,19 @@
   }
 
   .btn-primary {
-    @apply btn bg-primary text-primary-foreground shadow-[0_10px_30px_-10px_var(--primary)] hover:brightness-110 hover:-translate-y-0.5 active:translate-y-0;
+    @apply bg-primary text-primary-foreground shadow-[0_10px_30px_-10px_var(--primary)] hover:brightness-110 hover:-translate-y-0.5 active:translate-y-0;
   }
 
   .btn-outline {
-    @apply btn border border-border bg-card text-foreground hover:border-primary/40 hover:text-primary;
+    @apply border border-border bg-card text-foreground hover:border-primary/40 hover:text-primary;
   }
 
   .btn-light {
-    @apply btn bg-background text-ink hover:brightness-95 hover:-translate-y-0.5;
+    @apply bg-background text-ink hover:brightness-95 hover:-translate-y-0.5;
   }
 
   .btn-whatsapp {
-    @apply btn bg-whatsapp text-white shadow-[0_10px_30px_-10px_var(--whatsapp)] hover:brightness-110 hover:-translate-y-0.5;
+    @apply bg-whatsapp text-white shadow-[0_10px_30px_-10px_var(--whatsapp)] hover:brightness-110 hover:-translate-y-0.5;
   }
 
   .eyebrow {

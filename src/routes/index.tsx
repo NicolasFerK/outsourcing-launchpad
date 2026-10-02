@@ -92,25 +92,20 @@ function CodeWindow() {
         <span className="size-3 rounded-full bg-[oklch(0.68_0.17_156)]" />
         <span className="ml-3 font-mono text-xs text-code-comment">outsourcing.ts</span>
       </div>
-      <pre className="overflow-x-auto p-6 font-mono text-sm leading-8 sm:text-[15px]">
+      <pre className="overflow-x-auto p-6 font-mono text-sm leading-8 text-code-plain sm:text-[15px]">
         <code>
-          <span className="text-code-comment">{"// outsourcing WK\n"}</span>
-          <span className="text-code-key">const</span>
-          <span className="text-code-plain"> time = </span>
-          <span className="text-code-string">wk</span>
-          <span className="text-code-plain">.</span>
-          <span className="text-code-key">alocar</span>
-          <span className="text-code-plain">({"{"}\n{"  "}modelo: </span>
-          <span className="text-code-string">'dedicado'</span>
-          <span className="text-code-plain">,\n{"  "}gestao: </span>
-          <span className="text-code-string">'inclusa'</span>
-          <span className="text-code-plain">,\n{"  "}custo: </span>
-          <span className="text-code-string">'pós-pago'</span>
-          <span className="text-code-plain">\n{"}"});\n\n</span>
-          <span className="text-code-key">return</span>
-          <span className="text-code-plain"> time.</span>
-          <span className="text-code-string">produtivo</span>
-          <span className="text-code-plain">; </span>
+          <span className="text-code-comment">{"// outsourcing WK"}</span>
+          {"\n"}
+          <span className="text-code-key">const</span> time ={" "}
+          <span className="text-code-string">wk</span>.<span className="text-code-key">alocar</span>
+          ({"{"}
+          {"\n  "}modelo: <span className="text-code-string">'dedicado'</span>,
+          {"\n  "}gestao: <span className="text-code-string">'inclusa'</span>,
+          {"\n  "}custo: <span className="text-code-string">'pós-pago'</span>
+          {"\n"});
+          {"\n\n"}
+          <span className="text-code-key">return</span> time.
+          <span className="text-code-string">produtivo</span>;{" "}
           <span className="text-code-comment">{"// ✓"}</span>
           <span className="caret text-code-plain">▍</span>
         </code>
