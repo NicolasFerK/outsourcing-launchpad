@@ -75,7 +75,7 @@ function Nav() {
             </a>
           ))}
         </nav>
-        <a href="#contato" className="btn-primary px-5 py-2.5 text-xs">
+        <a href="#contato" className="btn btn-primary px-5 py-2.5 text-xs">
           Fale com um especialista
         </a>
       </div>
@@ -247,11 +247,11 @@ function FinalCta() {
           o seu projeto.
         </p>
         <div className="mt-10 flex animate-fade-up flex-col items-center justify-center gap-4 sm:flex-row [animation-delay:260ms]">
-          <a href={WHATSAPP_URL} target="_blank" rel="noreferrer" className="btn-whatsapp">
+          <a href={WHATSAPP_URL} target="_blank" rel="noreferrer" className="btn btn-whatsapp">
             <WhatsAppIcon />
             Falar no WhatsApp
           </a>
-          <a href={WHATSAPP_URL} target="_blank" rel="noreferrer" className="btn-light">
+          <a href={WHATSAPP_URL} target="_blank" rel="noreferrer" className="btn btn-light">
             Enviar mensagem
             <ArrowIcon />
           </a>
@@ -308,7 +308,7 @@ function Index() {
               no negócio, nós cuidamos do resto.
             </p>
             <div className="mt-10 animate-fade-up [animation-delay:240ms]">
-              <a href="#contato" className="btn-primary">
+              <a href="#contato" className="btn btn-primary">
                 Montar meu time
                 <ArrowIcon />
               </a>
